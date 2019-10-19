@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Barra de menú con Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="#">MasterWeb.La</a>
+
+	  <!-- Links -->
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Inicio</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#">Nosotros</a>
+	    </li>
+
+	    <!-- Dropdown -->
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	        Servicios
+	      </a>
+	      <div class="dropdown-menu">
+	        <a class="dropdown-item" href="#">Desarrollo Web</a>
+	        <a class="dropdown-item" href="#">Desarrollo Móvil</a>
+	        <a class="dropdown-item" href="#">Capacitaciones</a>
+	      </div>
+	    </li>
+	  </ul>
+	</nav>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
